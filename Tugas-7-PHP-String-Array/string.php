@@ -11,7 +11,7 @@
 <body>
     <h1>Berlatih String PHP</h1>
     <?php
-    echo "<h3> Soal No 1</h3>";
+    echo "<h3> Jawaban Soal No 1</h3>";
     /* 
             SOAL NO 1
             Tunjukan dengan menggunakan echo berapa panjang dari string yang diberikan berikut! Tunjukkan juga jumlah kata di dalam kalimat tersebut! 
@@ -34,7 +34,7 @@
     echo "Panjang String 2 : " . strlen($second_sentence) . "<br>";
     echo "Jumlah Kata 2 : " . str_word_count($second_sentence) . "<br>";
 
-    echo "<h3> Soal No 2</h3>";
+    echo "<h3> Jawaban Soal No 2</h3>";
     /* 
             SOAL NO 2
             Mengambil kata pada string dan karakter-karakter yang ada di dalamnya. 
@@ -47,7 +47,7 @@
     echo "Kata kedua: " . substr($string2, 2, 4) . "<br>";
     echo "Kata Ketiga: " . substr($string2, 7, 3) . "<br>";
 
-    echo "<h3> Soal No 3 </h3>";
+    echo "<h3> Jawaban Soal No 3 </h3>";
     /*
             SOAL NO 3
             Mengubah karakter atau kata yang ada di dalam sebuah string.
